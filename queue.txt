@@ -1,0 +1,21 @@
+Struktur data Queue adalah sebuah koleksi data yang mengikuti prinsip FIFO (First In, First Out), di mana elemen yang pertama kali dimasukkan akan menjadi elemen pertama yang dikeluarkan. Ini bisa dibayangkan seperti antrian di kasir: orang yang datang lebih dulu akan dilayani lebih dulu.
+
+Karakteristik Utama dari Queue:
+
+Enqueue: Menambah elemen ke bagian akhir (tail) dari queue.
+Dequeue: Menghapus elemen dari bagian depan (head) dari queue.
+Front/Peek: Melihat elemen di depan tanpa menghapusnya.
+Rear: Menunjukkan elemen terakhir dalam queue.
+
+Implementasi Queue:
+
+Array: Queue dapat diimplementasikan dengan array. Namun, karena array memiliki ukuran tetap, akan ada masalah dengan penggeseran elemen saat dequeuing.
+Linked List: Implementasi lain yang umum adalah menggunakan linked list di mana node baru ditambahkan di akhir dan dihapus dari awal, yang lebih efisien dibandingkan array.
+Deque: Dalam beberapa bahasa, ada struktur data bawaan yang disebut deque (double-ended queue) yang memungkinkan penambahan dan penghapusan elemen dari kedua ujungnya.
+
+Jenis-Jenis Queue:
+
+Simple Queue: Queue dasar yang hanya memungkinkan enqueue di akhir dan dequeue di awal.
+Circular Queue: Mengatasi keterbatasan array dengan menggunakan array melingkar, sehingga posisi awal dan akhir dapat "berputar" dalam array.
+Priority Queue: Elemen dengan prioritas tertinggi akan dikeluarkan lebih dulu, bukan berdasarkan urutan masuk.
+Double-ended Queue (Deque): Memungkinkan penambahan dan penghapusan elemen dari kedua ujung.
